@@ -1,0 +1,11 @@
+input: .
+output: .retype
+url: https://www.idello.org
+branding:
+  title: API Idello Doc
+  label: Docs
+links:
+- text: Home
+  link: /
+footer:
+  copyright: "&copy; Copyright TFO {{ year }}. All rights reserved."
