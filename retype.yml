@@ -1,6 +1,9 @@
 input: .
-output: .retype
-url: https://www.idello.org
+output: ./build
+url: idello.org
+favicon: favicon.png
+search:
+  placeholder:  (Press '/')
 branding:
   title: API Idello Doc
   label: Docs
