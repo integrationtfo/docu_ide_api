@@ -1,6 +1,6 @@
 input: .
 output: ./build
-url: idello.org
+url: www5.tfo.org/docu/ide
 favicon: favicon.png
 search:
   placeholder:  (Press '/')

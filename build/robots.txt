@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://idello.org/sitemap.xml.gz
+Sitemap: https://www5.tfo.org/docu/ide/sitemap.xml.gz

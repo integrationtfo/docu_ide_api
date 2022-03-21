@@ -10,7 +10,7 @@ Resend signup activation email
 `POST`
 
 ## Endpoint
-`/account/resend-activation`
+`/account/resend_activation`
 
 ## Parameters
 | Name| Description |
