@@ -1,32 +1,39 @@
 ---
 icon: note
-tags: [requests]
+tags:
+  - requests
 ---
-# Get Countries List
+
+# Get Provinces List
+
 Get list of provinces with codes and id.
 
 ## Method
+
 `POST`
 
 ## Endpoint
+
 `/account/get_provinces_list`
 
 ## Parameters
-| Name| Description |
-| --- | --- |
-|`country_id`| [!badge text="string" variant="light"] [!badge text="required" variant="warning"] 
+
+Name         | Description
+------------ | ---------------------------------------------------------------------------------
+`country_id` | [!badge text="string" variant="light"] [!badge text="required" variant="warning"]
 
 Example
+
 ```
 {
   "country_id": 40,
 }
 ```
 
-
 ## Responses
 
 Example
+
 ```
 # Code 200
 {
@@ -42,4 +49,3 @@ Example
   ]
 }
 ```
-
