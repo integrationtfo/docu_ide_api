@@ -26,11 +26,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/docu_ide_api/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/docu_ide_api/favicon.png" rel="icon" />
-    <link href="/docu_ide_api/resources/css/retype.css?v=2.2.704993040666" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/docu_ide_api/resources/css/retype.css?v=2.2.704998206642" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/docu_ide_api/resources/js/config.js?v=2.2.704993040666" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/docu_ide_api/resources/js/config.js?v=2.2.704998206642" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/docu_ide_api/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/docu_ide_api/resources/js/lunr.js?v=2.2.704993040666" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/docu_ide_api/resources/js/lunr.js?v=2.2.704998206642" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -186,6 +186,13 @@
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Requests</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Get Provinces List</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Get list of provinces with codes and id.</p></div>
+    </div>
+</a>
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/docu_ide_api/requests/profile/">
+    <div class="p-6">
+        <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Requests</div>
+        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Profile</div>
+        <div class="line-clamp-3"><p class="hidden mt-2 md:block"><code v-pre>POST</code></p></div>
     </div>
 </a>
 <a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/docu_ide_api/requests/provider/">
