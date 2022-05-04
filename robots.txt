@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://integrationtfo.github.io/docu_ide_api/sitemap.xml.gz
