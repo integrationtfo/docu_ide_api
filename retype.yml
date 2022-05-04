@@ -1,6 +1,6 @@
 input: .
 output: ./build
-url: www5.tfo.org/docu/ide
+url: integrationtfo.github.io/docu_ide_api
 favicon: favicon.png
 search:
   placeholder:  (Press '/')
