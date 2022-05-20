@@ -9,7 +9,7 @@ Return algolias for a province
 `POST`
 
 ## Endpoint
-`/account/get_provinces_list`
+`/algolia/getFilters`
 
 ## Parameters
 | Name| Description |

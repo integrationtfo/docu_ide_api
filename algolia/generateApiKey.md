@@ -9,7 +9,7 @@ Get a new api key to make direct request to Algolia from the frontend
 `POST`
 
 ## Endpoint
-`/account/get_provinces_list`
+`/algolia/generateApiKey`
 
 ## Parameters
 | Name| Description |
